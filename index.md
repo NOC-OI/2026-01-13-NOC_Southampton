@@ -3,22 +3,22 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "National Oceanography Centre"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+venue: "National Oceanography Centre - Southampton"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "Library Red Room and Conference Room, NOCS, European Way, Southampton, SO14 3ZH"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "50.8930098"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1.3974532"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "November 19, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "January 13 - 15, 2026"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:30 am - 5 pm UTC"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2025-11-19     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2025-11-19        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2026-01-13     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2026-01-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Colin Sauze", "Tobias Ferreira"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Esther Turner", "TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["colin.sauze@noc.ac.uk","esther.turner@noc.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite: 1858430047299          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-what3words:           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
+eventbrite: 1858524820769          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+what3words: "super.neon.light"          # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -66,7 +66,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please go directly to the <a href="https://2025-11-19-containers.eventbrite.com">registration page.</a></strong>
+  registration box below, please go directly to the <a href="(https://2026-01-12-intro-to-python.eventbrite.com">registration page.</a></strong>
 
 <div id="eventbrite-widget-container"></div>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
@@ -85,17 +85,19 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <p id="what">
   <strong>About this workshop:</strong>
-  This Software Carpentry course is an introductory course covering using the Unix command line shell, Programming in Python and Version Control with Git. Learners are not expected to have any prior knowledge of these topics. You can find links to the course notes for these topics below:
+  This Software Carpentry course is an introductory course covering using the Unix command line shell, Programming in Python and Version Control with Git. Learners are not expected to have any prior knowledge of these topics. 
+  It will be possible to only attend part(s) of this workshop - for example, to come to the Git section but not the other two. If you would like to do this, there should be a section on the sign up form to indicate this. Please do also feel free to email us about it. We will send around more detailed timings on when each section will be nearer the time. 
+  If you have any questions, please get in touch with us. 
+</p>
+
+<p id="course-notes">
+  <strong>Course Notes:</strong>
+  You can find links to the course notes for these topics below:
   <ul>
     <li><a href="https://swcarpentry.github.io/shell-novice/">Shell</a></li>
     <li><a href="https://noc-oi.github.io/python-novice-esces/">Python</a></li>
     <li><a href="https://noc-oi.github.io/git-novice/">Git</a></li>
   </ul>
-</p>
-
-<p id="course-notes">
-  <strong>Course Notes:</strong>
-  The course notes can be found on <a href="{{site.incubator_lesson_site}}">the lesson homepage</a>.
 </p>
 
 <p id="who-can-attend">
