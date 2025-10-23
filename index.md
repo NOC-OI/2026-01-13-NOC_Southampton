@@ -66,7 +66,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please go directly to the <a href="(https://2026-01-12-intro-to-python.eventbrite.com">registration page.</a></strong>
+  registration box below, please go directly to the <a href="https://2026-01-12-intro-to-python.eventbrite.com">registration page.</a></strong>
 
 <div id="eventbrite-widget-container"></div>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
