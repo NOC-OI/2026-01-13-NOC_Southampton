@@ -85,10 +85,12 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <p id="what">
   <strong>About this workshop:</strong>
-  This course is an introduction to containers and is intended as a beginner level course that is suitable for people who have no experience of containers. 
-  It is aimed to help people who want to develop their knowledge of container tooling to help improve reproducibility and support their research work, or that of individuals or teams they are working with.
-  Basic familiarity with using the Unix shell/the command line is assumed. We'll be using Docker or Podman during this course, but may discuss Singularity at the end as well, if there is interest. Please note that ideally admin access to your laptop is required for this workshop, in order to install Docker/Podman. If you don't already have an EP account, this can be requested through the ServiceHub (Request a Service -> IT -> Access Requests -> Request an EP account); however, you will need a business case from your director before applying. If this isn't possible, please get in touch with us so that we can arrange a workaround. 
-  Please see the course notes for further information or get in touch with us. 
+  This Software Carpentry course is an introductory course covering using the Unix command line shell, Programming in Python and Version Control with Git. Learners are not expected to have any prior knowledge of these topics. You can find links to the course notes for these topics below:
+  <ul>
+    <li><a href="https://swcarpentry.github.io/shell-novice/">Shell</a></li>
+    <li><a href="https://noc-oi.github.io/python-novice-esces/">Python</a></li>
+    <li><a href="https://noc-oi.github.io/git-novice/">Git</a></li>
+  </ul>
 </p>
 
 <p id="course-notes">
